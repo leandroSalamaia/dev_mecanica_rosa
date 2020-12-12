@@ -78,3 +78,6 @@
 </script>
 
 <body>
+    <div class="" id="pre-loader">
+        <div class="loader"></div>
+    </div>

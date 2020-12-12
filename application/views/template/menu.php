@@ -19,15 +19,10 @@
         <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
             <div class="sb-sidenav-menu">
                 <div class="nav">
-                    <!-- <div class="sb-sidenav-menu-heading">Fluxo</div> -->
+                    <div class="sb-sidenav-menu-heading">Gerência</div>
                     <a class="nav-link" href="<?php echo site_url('/cliente') ?>">
                         <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
                         Clientes
-                    </a>
-
-                    <a class="nav-link" href="<?php echo site_url('/produto') ?>">
-                        <div class="sb-nav-link-icon"><i class="fas fa-cogs"></i></div>
-                        Produtos
                     </a>
 
                     <a class="nav-link" href="<?php echo site_url('/historico_veiculo') ?>">
@@ -41,8 +36,13 @@
                     </a>
 
                     <a class="nav-link" href="<?php echo site_url('/financeiro') ?>">
-                        <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
+                        <div class="sb-nav-link-icon"><i class="fas fa-dollar-sign"></i></div>
                         Financeiro
+                    </a>
+                    <div class="sb-sidenav-menu-heading">Configurações</div>
+                    <a class="nav-link" href="<?php echo site_url('/produto') ?>">
+                        <div class="sb-nav-link-icon"><i class="fas fa-cogs"></i></div>
+                        Produtos
                     </a>
 
                 </div>
